@@ -1,0 +1,79 @@
+# Ignore Datasets folder
+Datasets/
+
+# Ignore model output directories
+*_output/
+*_output
+*/model_outputs/
+model_outputs/
+
+# Ignore large model files and checkpoints
+*.bin
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Ignore system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large data files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
